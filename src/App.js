@@ -27,6 +27,7 @@ class App extends React.Component {
     this.setState({
       searchField : e.target.value
     });
+    console.log('hey')
   }
 
   render() {
